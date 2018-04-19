@@ -1,0 +1,19 @@
+ Use Cases-
+Use Case #1 Registration
+Primary Actors: Administrator, Staff
+Pre- Condition: The student should have a valid college membership document which contains his name, date_of_birth, course, rollno to obtain library membership. The same criteria apply for registration of library and other staff members including the administrator.
+Main Scenario
+1. To register a student the administrator or staff has to first login.
+2. After login the administrator or staff searches for the existingstudents.
+3. If the student is already registered there is no need to register him.
+4. If the student is not already registered then his name, roll_no is to beentered for registration .
+5.A student_id for library membership is generated and provided to the Student.
+6.To register a staff member the administrator has to first login.
+7.After successful login he searches among the existing staff members.
+8.If the staff member is already registered there is no need to register him.
+9.If the staff member is not already registered then his name , designation is Entered.
+10. After successful registration the staff member is provided with a unique id.
+Alternate Scenarios
+1. The administrator or staff fails to login.
+2. Administrator or staff can search for his id among existing members.
+3. If he is already a member and unable to login he should contact the administrator otherwise he should get re-registered
