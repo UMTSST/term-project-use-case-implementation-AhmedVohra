@@ -1,4 +1,5 @@
 
+
 Use Case #1 Delete
 Primary Actors: Administrator, Staff
 Pre- Condition: The book should have a valid info in which contains it's name,Author name and ISBN.
@@ -10,3 +11,4 @@ Main Scenario
 Alternate Scenarios
 1. The administrator or staff fails to login.
 2. Administrator or staff cannot search for a book.
+
